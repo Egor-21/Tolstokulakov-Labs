@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Егорка\Desktop\ввп лаб\lab1part2\lab1part2\lab1part2\Source.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Егорка\Desktop\ввп лаб\lab1part2\lab1part2\lab1part2\Source.cpp(8,10): warning C4305: =: усечение из "double" в "float"
+  lab1part2.vcxproj -> C:\Users\Егорка\Desktop\ввп лаб\lab1part2\lab1part2\Debug\lab1part2.exe
