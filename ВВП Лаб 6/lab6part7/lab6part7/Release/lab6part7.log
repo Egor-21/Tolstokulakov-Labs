@@ -1,0 +1,9 @@
+﻿  Source.cpp
+D:\учёба\ВВП Лаб 6\lab6part7\lab6part7\Source.cpp(9,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\учёба\ВВП Лаб 6\lab6part7\lab6part7\Source.cpp(10,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Создание кода
+  0 of 12 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  lab6part7.vcxproj -> D:\учёба\ВВП Лаб 6\lab6part7\Release\lab6part7.exe
