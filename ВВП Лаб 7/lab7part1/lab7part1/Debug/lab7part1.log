@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\учёба\ВВП Лаб 7\lab7part1\lab7part1\Source.cpp(8,10): warning C4305: =: усечение из "double" в "float"
+  lab7part1.vcxproj -> D:\учёба\ВВП Лаб 7\lab7part1\Debug\lab7part1.exe
