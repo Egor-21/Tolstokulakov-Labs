@@ -4,9 +4,9 @@ int main()
 {
 	setlocale(LC_ALL, "Rus");
 	int b, k;
-	cout << "Размер в байтах: "; // ввод размера в байтах
+	cout << "Size in bytes: "; // enter size in bytes
 	cin >> b;
-	k = b / 1024; // находим полное кол-во килобайт
-	cout << "Полное колличество киллобайт = " << k << endl; // вывод результата на экран
+	k = b / 1024; // find the full number of kilobytes
+	cout << "Full number of kilobytes = " << k << endl; // output rezult
 
 }

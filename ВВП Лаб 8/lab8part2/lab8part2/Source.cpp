@@ -4,20 +4,17 @@ int main()
 {
 	setlocale(LC_ALL, "Rus");
 	int a, b, rez;
-	cout << "a = "; // ввод длины отрезка a
+	cout << "a = "; // enter the length of A
 	cin >> a; 
-	cout << "b = "; // ввод длины отрезка b
+	cout << "b = "; // enter the length of A
 	cin >> b;
 	if (a >= b)
 	{
-		rez = a / b; // находим кол-во отрезков B, размещённых на отрезке А
-		cout << "Кол-во отрезков B, размещённых на отрезке А: " << rez << endl; // вывод результата 
+		rez = a / b; // find the numbers of B in  А
+		cout << "Numbers B in segment А: " << rez << endl; // output rezult
 	}
-	if (a < b) // случай если a < b
+	if (a < b) 
 	{
-		cout << "A < B" << endl; // выводим сообщение
-	}
-	
-
-
+		cout << "A < B" << endl; // output message
+	}	
 }

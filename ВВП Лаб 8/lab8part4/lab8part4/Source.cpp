@@ -4,10 +4,10 @@ int main()
 {
 	setlocale(LC_ALL, "Rus");
 	int a,b,c;
-	cout << "¬ведите двузначное число: "; // ввод двузначного числа
+	cout << "Enter two-digit number: "; // enter two-digit number
 	cin >> a;
-	b = a / 10; // находим первую цифру числа
-	c = a % 10; // находим вторую цифру числа
-	cout << c << b << endl; // мен€ем цифры местами и выводим на экран новое число
+	b = a / 10; // find first figure of number
+	c = a % 10; // find second figure of number
+	cout << c << b << endl; // change figures
 
 }
