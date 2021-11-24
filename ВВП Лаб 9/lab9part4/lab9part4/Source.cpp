@@ -2,17 +2,16 @@
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Rus");
 	int a, b, c, plpr, plkv, kolkv,svobod;
-	cout << "Введите две стороны прямоугольника: " << endl; // ввод сторон прямоугольника
+	cout << "Enter two sides of rectangle: " << endl; // entering the sides of the rectangle
 	cin >> a;
 	cin >> b;
-	cout << "Введите сторону квадрата: " << endl; // ввод стороны квадрата
+	cout << "Enter side of square: " << endl; // entering side of square
 	cin >> c; 
-	plpr = a * b; // находим площадь прямоугольника
-	plkv = c * c; // находим площадь квадрата
-	kolkv = plpr / plkv; // находим сколько квадратов помещается в прямоугольник
-	svobod = plpr - (kolkv * plkv); // находим не занятую площадь
-	cout << "Кол-во квадартов в прямоугольнике: " << kolkv << endl; // вывод первого ответа
-	cout << "Свободная площадь: " << svobod << endl; // вывод второго ответа
+	plpr = a * b; // find the square of rectangle
+	plkv = c * c; // find the square of square
+	kolkv = plpr / plkv; // find how many squares fit into a rectangle
+	svobod = plpr - (kolkv * plkv); // find free square
+	cout << "Number of squares in a rectangle: " << kolkv << endl; 
+	cout << "Free square: " << svobod << endl; 
 }

@@ -2,234 +2,234 @@
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Rus");
+
 	int n, k;
-	cout << "Номер дня: ";
+	cout << "Number of day: ";
 	cin >> k;
-	cout << "Номер дня недели первого января:";
+	cout << "The day of the first January:";
 	cin >> n;
-	if (n == 1)
+	if (n == 1) // if first January is a Monday
 	{
-		if  (k % 7 == 1) 
+		if  (k % 7 == 1) // if the remainder of dividing the number by 7 is 1, it is Monday, if 2, it is Tuesday... 
 		{
-			cout << "Понедельник" << endl;
+			cout << "Monday" << endl;
 		}
 		if (k % 7 == 2) 
 		{
-			cout << "Вторник" << endl;
+			cout << "Tuesday" << endl;
 		}
 		if (k % 7 == 3) 
 		{
-			cout << "Среда" << endl;
+			cout << "Wednesday" << endl;
 		}
 		if (k % 7 == 4) 
 		{
-			cout << "Четверг" << endl;
+			cout << "Thursday" << endl;
 		}
 		if (k % 7 == 5) 
 		{
-			cout << "Пятница" << endl;
+			cout << "Friday" << endl;
 		}
 		if (k % 7 == 6) 
 		{
-			cout << "Суббота" << endl;
+			cout << "Saturday" << endl;
 		}
 		if (k % 7 == 0)
 		{
-			cout << "Воскресенье" << endl;
+			cout << "Sunday" << endl;
 		}
 	}
-	if (n == 2)
+	if (n == 2) // if first January is a Tuesday
 	{
-		if (k % 7 == 1)
+		if (k % 7 == 1) // if the remainder of dividing the number by 7 is 1, it is Tuesday, if 2, it is Wednesday...
 		{
-			cout << "Вторник" << endl;
+			cout << "Tuesday" << endl;
 		}
 		if (k % 7 == 2) 
 		{
-			cout << "Cреда" << endl;
+			cout << "Wednesday" << endl;
 		}
 		if (k % 7 == 3) 
 		{
-			cout << "Четверг" << endl;
+			cout << "Thursday" << endl;
 		}
 		if (k % 7 == 4) 
 		{
-			cout << "Пятница" << endl;
+			cout << "Friday" << endl;
 		}
 		if (k % 7 == 5) 
 		{
-			cout << "Суббота" << endl;
+			cout << "Saturday" << endl;
 		}
 		if (k % 7 == 6)
 		{
-			cout << "Воскресенье" << endl;
+			cout << "Sunday" << endl;
 		}
 		if (k % 7 == 0)
 		{
-			cout << "Понедельник" << endl;
+			cout << "Monday" << endl;
 		}
 	}
-	if (n == 3)
+	if (n == 3) // if first January is a Wednesday
 	{
-		if (k % 7 == 1) 
+		if (k % 7 == 1) // if the remainder of dividing the number by 7 is 1, it is Wednesday, if 2, it is Thursday...
 		{
-			cout << "Среда" << endl;
+			cout << "Wednesday" << endl;
 		}
 		if (k % 7 == 2)
 		{
-			cout << "Четверг" << endl;
+			cout << "Thursday" << endl;
 		}
 		if (k % 7 == 3)
 		{
-			cout << "Пятница" << endl;
+			cout << "Friday" << endl;
 		}
 		if (k % 7 == 4)
 		{
-			cout << "Суббота" << endl;
+			cout << "Saturday" << endl;
 		}
 		if (k % 7 == 5)
 		{
-			cout << "Воскресенье" << endl;
+			cout << "Sunday" << endl;
 		}
 		if (k % 7 == 6)
 		{
-			cout << "Понедельник" << endl;
+			cout << "Monday" << endl;
 		}
 		if (k % 7 == 0)
 		{
-			cout << "Вторник" << endl;
+			cout << "Tuesday" << endl;
 		}
 	}
-	if (n == 4)
+	if (n == 4) // if first January is a Thursday
 	{
-		if (k % 7 == 1)
+		if (k % 7 == 1) // if the remainder of dividing the number by 7 is 1, it is Thursday, if 2, it is Friday...
 		{
-			cout << "Четверг" << endl;
+			cout << "Thursday" << endl;
 		}
 
 		if (k % 7 == 2)
 		{
-			cout << "Пятница" << endl;
+			cout << "Friday" << endl;
 		}
 
 		if (k % 7 == 3)
 		{
-			cout << "Суббота" << endl;
+			cout << "Saturday" << endl;
 		}
 
 		if (k % 7 == 4)
 		{
-			cout << "Воскресенье" << endl;
+			cout << "Sunday" << endl;
 		}
 
 		if (k % 7 == 5)
 		{
-			cout << "Понедельник" << endl;
+			cout << "Monday" << endl;
 		}
 
 		if (k % 7 == 6)
 		{
-			cout << "Вторник" << endl;
+			cout << "Tuesday" << endl;
 		}
 
 		if (k % 7 == 0)
 		{
-			cout << "Среда" << endl;
+			cout << "Wednesday" << endl;
 		}
 
 	}
-	if (n == 5)
+	if (n == 5) // if first January is a Friday
 	{
-		if (k % 7 == 1)
+		if (k % 7 == 1) //if the remainder of dividing the number by 7 is 1, it is Friday, if 2, it is Saturday...
 		{
-			cout << "Пятница" << endl;
+			cout << "Friday" << endl;
 		}
 		if (k % 7 == 2)
 		{
-			cout << "Суббота" << endl;
+			cout << "Saturday" << endl;
 		}
 		if (k % 7 == 3)
 		{
-			cout << "Воскресенье" << endl;
+			cout << "Sunday" << endl;
 		}
 		if (k % 7 == 4)
 		{
-			cout << "Понедельник" << endl;
+			cout << "Monday" << endl;
 		}
 		if (k % 7 == 5)
 		{
-			cout << "Вторник" << endl;
+			cout << "Tuesday" << endl;
 		}
 		if (k % 7 == 6)
 		{
-			cout << "Среда" << endl;
+			cout << "Wednesday" << endl;
 		}
 		if (k % 7 == 0)
 		{
-			cout << "Четверг" << endl;
+			cout << "Thursday" << endl;
 		}
 	}
-	if (n == 6)
+	if (n == 6) // if first January is a Saturday
 	{
-		if (k % 7 == 1)
+		if (k % 7 == 1) //if the remainder of dividing the number by 7 is 1, it is Saturday, if 2, it is Sunday...
 		{
-			cout << "Суббота" << endl;
+			cout << "Saturday" << endl;
 		}
 		if (k % 7 == 2)
 		{
-			cout << "Воскресенье" << endl;
+			cout << "Sunday" << endl;
 		}
 		if (k % 7 == 3)
 		{
-			cout << "Понедельник" << endl;
+			cout << "Monday" << endl;
 		}
 		if (k % 7 == 4)
 		{
-			cout << "Вторник" << endl;
+			cout << "Tuesday" << endl;
 		}
 		if (k % 7 == 5)
 		{
-			cout << "Среда" << endl;
+			cout << "Wednesday" << endl;
 		}
 		if (k % 7 == 6)
 		{
-			cout << "Четверг" << endl;
+			cout << "Thursday" << endl;
 		}
 		if (k % 7 == 0)
 		{
-			cout << "Пятница" << endl;
+			cout << "Friday" << endl;
 		}
 	}
-	if (n == 7)
+	if (n == 7) // if first January is a Sunday
 	{
-		if (k % 7 == 1)
+		if (k % 7 == 1) //if the remainder of dividing the number by 7 is 1, it is Sunday, if 2, it is Monday...
 		{
-			cout << "Воскресенье" << endl;
+			cout << "Sunday" << endl;
 		}
 		if (k % 7 == 2)
 		{
-			cout << "Понедельник" << endl;
+			cout << "Monday" << endl;
 		}
 		if (k % 7 == 3)
 		{
-			cout << "Вторник" << endl;
+			cout << "Tuesday" << endl;
 		}
 		if (k % 7 == 4)
 		{
-			cout << "Среда" << endl;
+			cout << "Wednesday" << endl;
 		}
 		if (k % 7 == 5)
 		{
-			cout << "Четверг" << endl;
+			cout << "Thursday" << endl;
 		}
 		if (k % 7 == 6)
 		{
-			cout << "Пятница" << endl;
+			cout << "Friday" << endl;
 		}
 		if (k % 7 == 0)
 		{
-			cout << "Суббота" << endl;
+			cout << "Saturday" << endl;
 		}
 	}
 

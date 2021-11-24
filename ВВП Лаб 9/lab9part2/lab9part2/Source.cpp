@@ -2,65 +2,35 @@
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Rus");
 	int n;
-	cout << "Номер дня: ";
+	cout << "Number of day: ";  
 	cin >> n;
-	if ((n % 7 == 0) and (n > 6))
+	if (n % 7 == 0)  // if the number is completely divisible by 7, then this is Sunday, if the remainder is equal 1 it is Monday, if 2, it is Tuesday and so on 
 	{
-		cout << "Воскресенье(0)" << endl;
+		cout << "Sunday(0)" << endl;
 	}
-	if ((n % 7 == 1) and (n > 6))
+	if (n % 7 == 1) 
 	{
-		cout << "Понедельник(1)" << endl;
+		cout << "Monday(1)" << endl;
 	}
-	if ((n % 7 == 2) and (n > 6))
+	if (n % 7 == 2)
 	{
-		cout << "Вторник(2)" << endl;
+		cout << "Tuesday(2)" << endl;
 	}
-	if ((n % 7 == 3) and (n > 6))
+	if (n % 7 == 3)
 	{
-		cout << "Среда(3)" << endl;
+		cout << "Wednesday(3)" << endl;
 	}
-	if ((n % 7 == 4) and (n > 6))
+	if (n % 7 == 4)
 	{
-		cout << "Четверг(4)" << endl;
+		cout << "Thursday(4)" << endl;
 	}
-	if ((n % 7 == 5) and (n > 6))
+	if (n % 7 == 5)
 	{
-		cout << "Пятница(5)" << endl;
+		cout << "Friday(5)" << endl;
 	}
-	if ((n % 7 == 6) and (n > 6))
+	if (n % 7 == 6)
 	{
-		cout << "Суббота(6)" << endl;
-	}
-	if (n == 0)
-	{
-		cout << "Воскресенье" << endl;
-	}
-	if (n == 1)
-	{
-		cout << "Понедельник" << endl;
-	}
-	if (n == 2)
-	{
-		cout << "Вторник" << endl;
-	}
-	if (n == 3)
-	{
-		cout << "Среда" << endl;
-	}
-	if (n == 4)
-	{
-		cout << "Четверг" << endl;
-	}
-	if (n == 5)
-	{
-		cout << "Пятница" << endl;
-	}
-	if (n == 6)
-	{
-		cout << "Суббота" << endl;
-	}
-
+		cout << "Saturday(6)" << endl;
+	}	
 }

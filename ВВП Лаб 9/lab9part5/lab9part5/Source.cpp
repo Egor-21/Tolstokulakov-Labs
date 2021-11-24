@@ -2,24 +2,23 @@
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Rus");
 	int year, vek;
-	cout << "Введите год: " << endl;
+	cout << "Enter year: " << endl;
 	cin >> year;
-	if (year % 10 != 0)  // случай когда год не оканчивается на ноль и перед последним числом стоит любое число например(2001)
+	if (year % 10 != 0)  // the case when the year does not end with zero and any number is placed before the last number, for example (2001)
 	{
 		vek = (year / 100) + 1;
-		cout << vek << " " << "век" << endl;
+		cout << vek << " " << "century" << endl;
 	}
-	if ((year % 10 == 0) and (year % 100) / 10 == 0) // случай когда год оканчивается на 00
+	if ((year % 10 == 0) and (year % 100) / 10 == 0) // the case when the year ends at 00
 	{
 		vek = year / 100;
-		cout << vek << " " << "век" << endl;
+		cout << vek << " " << "century" << endl;
 	}
-	if ((year % 10 == 0) and (year % 100) / 10 != 0) // случай когда год оканчивается на X0 например 2020
+	if ((year % 10 == 0) and (year % 100) / 10 != 0) // the case when the year ends on X0 for example 2020
 	{
 		vek = (year / 100) + 1;
-		cout << vek << " " << "век" << endl;
+		cout << vek << " " << "century" << endl;
 
 	}
 }
