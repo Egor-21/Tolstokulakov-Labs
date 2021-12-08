@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\учёба\ВВП Лаб13\lab13part5\lab13part5\Source.cpp(14,28): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  lab13part5.vcxproj -> D:\учёба\ВВП Лаб13\lab13part5\Debug\lab13part5.exe
