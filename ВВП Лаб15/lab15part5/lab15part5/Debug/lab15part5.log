@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\учёба\ВВП Лаб15\lab15part5\lab15part5\Source.cpp(9,9): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\учёба\ВВП Лаб15\lab15part5\lab15part5\Source.cpp(11,9): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+D:\учёба\ВВП Лаб15\lab15part5\lab15part5\Source.cpp(18,16): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  lab15part5.vcxproj -> D:\учёба\ВВП Лаб15\lab15part5\Debug\lab15part5.exe

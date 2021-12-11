@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\учёба\ВВП Лаб15\lab15part1\lab15part1\Source.cpp(5,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\учёба\ВВП Лаб15\lab15part1\lab15part1\Source.cpp(16,11): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  lab15part1.vcxproj -> D:\учёба\ВВП Лаб15\lab15part1\Debug\lab15part1.exe

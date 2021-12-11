@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\учёба\ВВП Лаб15\lab15part3\lab15part3\Source.cpp(5,19): warning C4305: инициализация: усечение из "double" в "float"
+D:\учёба\ВВП Лаб15\lab15part3\lab15part3\Source.cpp(6,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  lab15part3.vcxproj -> D:\учёба\ВВП Лаб15\lab15part3\Debug\lab15part3.exe
